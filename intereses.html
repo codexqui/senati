@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis intereses</title>
+    <style>
+        /* Estilos básicos y limpios */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a2e;
+            color: #ffffff;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header, footer {
+            width: 100%;
+            max-width: 600px;
+            background-color: #16213e; 
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        main {
+            width: 100%;
+            max-width: 600px;
+            background-color: #16213e; 
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            text-align: left;
+        }
+
+        h1, h2, h3 {
+            color: #e94560;
+        }
+
+        main > h2 {
+            text-align: center;
+        }
+
+        p, li {
+            color: #dcdcdc;
+            line-height: 1.6;
+        }
+
+        /* Estilo para los espacios de fotos y control de la imagen */
+        .foto-placeholder {
+            width: 100%;
+            min-height: 150px;
+            background-color: #0f3460;
+            border: 2px dashed #e94560;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;       /* Permite acomodarlas */
+            gap: 15px;             /* Espacio de separación entre ambas imágenes */
+            color: #a0a0a0;
+            margin: 15px 0;
+            font-size: 0.9rem;
+            text-align: center;
+            overflow: hidden;
+            padding: 10px; /* Margen interno para que la foto no pegue al borde punteado */
+            box-sizing: border-box;
+        }
+
+        /* Control para que ambas imágenes tengan el mismo alto y su ancho fluya naturalmente */
+        .foto-placeholder img {
+            height: 140px;       /* Altura idéntica y fija para ambas imágenes */
+            width: auto;         /* El ancho se ajusta automáticamente manteniendo sus proporciones */
+            max-width: 45%;      /* Evita que se salgan del contenedor */
+            object-fit: contain; /* Mantiene la proporción sin deformar */
+            border-radius: 6px;  /* Bordes redondeados */
+        }
+
+        nav {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        nav a {
+            background-color: #0f3460;
+            color: #ffffff;
+            padding: 8px 12px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+            font-size: 0.9rem;
+        }
+
+        nav a:hover {
+            background-color: #e94560;
+        }
+
+        footer {
+            font-size: 0.9rem;
+            color: #888888;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mi página personal</h1>
+
+        <nav>
+            <a href="main.html">Inicio</a>
+            <a href="yo-soy.html">Yo soy</a>
+            <a href="hobbies.html">Mis hobbies</a>
+            <a href="metas.html">Mis metas</a>
+            <a href="intereses.html">Mis intereses</a>
+            <a href="mangas-animes.html">Mangas y animes</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Mis intereses tecnológicos</h2>
+
+        <p>
+            El mundo del desarrollo de software me apasiona. Aquí presento
+            los lenguajes, frameworks y tecnologías en los que me gusta enfocarme y aprender.
+        </p>
+
+        <h3>Lenguajes de programación</h3>
+        <!-- Espacio para foto de Lenguajes -->
+        <div class="foto-placeholder">
+            <img src="https://edteam-media.s3.amazonaws.com/blogs/original/c9d0e7b2-a7f8-45fc-bac8-856977585384.png" alt="Lenguajes de programación">
+            <img src="https://lenguajesdeprogramacion.net/wp-content/uploads/2018/01/lenguaje-javascript-logo.png" alt="JavaScript">
+        </div>
+        <p>
+            Me atraen lenguajes versátiles que me permitan entender tanto la lógica
+            del backend como la interacción en el frontend, construyendo bases sólidas para cualquier sistema.
+        </p>
+
+        <h3>Frameworks y librerías</h3>
+        <!-- Espacio para foto de Frameworks -->
+        <div class="foto-placeholder">
+            [ Espacio para imagen de Frameworks ]
+        </div>
+        <p>
+            Disfruto explorando frameworks modernos que optimizan el desarrollo de aplicaciones web 
+            y facilitan la creación de interfaces dinámicas y eficientes.
+        </p>
+
+        <h3>Herramientas y tecnologías</h3>
+        <!-- Espacio para foto de Herramientas -->
+        <div class="foto-placeholder">
+            [ Espacio para imagen de Herramientas y Desarrollo ]
+        </div>
+        <p>
+            Me interesa conocer herramientas de control de versiones, entornos de desarrollo 
+            y arquitecturas que forman parte del flujo de trabajo profesional actual.
+        </p>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Cezar AKA CEZ1TA. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>

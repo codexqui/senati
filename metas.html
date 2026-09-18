@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis metas</title>
+    <style>
+        /* Estilos básicos y limpios */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a2e; /* Fondo oscuro que contrasta perfectamente */
+            color: #ffffff;            /* Texto principal en blanco */
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        header, footer {
+            width: 100%;
+            max-width: 600px;
+            background-color: #16213e; 
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        /* El main ahora alinea su texto a la izquierda para que las listas se vean ordenadas */
+        main {
+            width: 100%;
+            max-width: 600px;
+            background-color: #16213e; 
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            text-align: left; /* Alineado a la izquierda */
+        }
+
+        h1, h2, h3 {
+            color: #e94560; /* Color llamativo para los títulos */
+        }
+
+        /* Centramos solo el título principal del main si lo prefieres */
+        main > h2 {
+            text-align: center;
+        }
+
+        p, li {
+            color: #dcdcdc; /* Texto secundario gris claro para no cansar la vista */
+            line-height: 1.6;
+        }
+
+        /* Estilos para el menú de navegación */
+        nav {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        nav a {
+            background-color: #0f3460;
+            color: #ffffff;
+            padding: 8px 12px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+            font-size: 0.9rem;
+        }
+        nav a:hover {
+            background-color: #e94560;
+        }
+
+        /* Listas limpias y ordenadas a la izquierda */
+        ul {
+            margin: 10px 0 20px 0;
+            padding-left: 20px;
+        }
+
+        footer {
+            font-size: 0.9rem;
+            color: #888888;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi página personal</h1>
+        <nav>
+            <a href="main.html">Inicio</a>
+            <a href="yo-soy.html">Yo soy</a>
+            <a href="hobbies.html">Mis hobbies</a>
+            <a href="metas.html">Mis metas</a>
+            <a href="intereses.html">Mis intereses</a>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Mis metas</h2>
+        <p>
+            Tengo diferentes metas relacionadas con mi aprendizaje,
+            mi desarrollo profesional y mis proyectos personales.
+        </p>
+        
+        <h3>Metas a corto plazo</h3>
+        <ul>
+            <li>Mejorar mis conocimientos de programación.</li>
+            <li>Aprender más sobre desarrollo de aplicaciones.</li>
+            <li>Completar mis estudios.</li>
+        </ul>
+        
+        <h3>Metas a largo plazo</h3>
+        <ul>
+            <li>Convertirme en un buen desarrollador de software.</li>
+            <li>Crear mis propios proyectos tecnológicos.</li>
+            <li>Desarrollar proyectos que puedan ser utilizados por otras personas.</li>
+        </ul>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 - Cezar AKA CEZ1TA. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
